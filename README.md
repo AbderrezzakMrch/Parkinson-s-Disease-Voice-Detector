@@ -69,15 +69,7 @@ A web application that detects Parkinson's Disease through voice analysis using 
 📜 License
 Distributed under the MIT License. See LICENSE for more information.
 
-✉️ Contact
-Maireche Abderrezzak 
 
 Project Link: https://github.com/AbderrezzakMrch/Parkinson-s-Disease-Voice-Detector
 
-## Key Styling Elements Used:
-- Emoji headers for visual scanning
-- Tables for browser support and model metrics
-- Code blocks for installation commands
-- Clear section headers with consistent formatting
-- Placeholder images (replace with actual screenshots)
-- Badges (you can add more from shields.io)
+
