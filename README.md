@@ -25,9 +25,9 @@ A web application that detects Parkinson's Disease through voice analysis using 
 - 🐼 Pandas/Numpy (Data Processing)
 
 **ML Model**:
-- Trained on [Parkinson's Voice Dataset Name]
+- Trained on [Oxford Parkinson's Disease Detection Dataset]
 - SVM Classifier for healthy vs Parkinson's prediction
-- Feature Extraction: [List key audio features used]
+- Feature Extraction: [MFCC]
 
 ## 🌐 Browser Support
 
