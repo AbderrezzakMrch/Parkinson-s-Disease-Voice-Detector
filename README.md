@@ -1,12 +1,84 @@
-# React + Vite
+# 🎤 Parkinson's Disease Voice Detector 🧠
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Project Banner](https://via.placeholder.com/1200x400?text=Parkinson's+Disease+Voice+Detector) 
+*(Replace with your actual banner image)*
 
-Currently, two official plugins are available:
+A web application that detects Parkinson's Disease through voice analysis using machine learning. Built for [Hackathon Name].
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌟 Features
 
-## Expanding the ESLint configuration
+- **Voice Recording**: Record your voice directly in the browser
+- **File Upload**: Upload existing voice recordings for analysis
+- **ML Analysis**: FastAPI backend with SVM model processes voice samples
+- **Results Dashboard**: Clear visualization of prediction results
+- **Responsive Design**: Works on desktop and mobile devices
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Technologies Used
+
+**Frontend**:
+- ⚡ React + Vite (Frontend Framework)
+- 🎨 Tailwind CSS (Styling)
+- 🎤 Web Audio API (Voice Recording)
+
+**Backend**:
+- 🐍 FastAPI (Python Backend)
+- 🤖 Scikit-learn (SVM Model)
+- 🐼 Pandas/Numpy (Data Processing)
+
+**ML Model**:
+- Trained on [Parkinson's Voice Dataset Name]
+- SVM Classifier for healthy vs Parkinson's prediction
+- Feature Extraction: [List key audio features used]
+
+## 🌐 Browser Support
+
+| Browser | Support | Notes |
+|---------|---------|-------|
+| Chrome  | ✅ Full | Recommended browser |
+| Firefox | ✅ Full |  |
+| Edge    | ✅ Full |  |
+| Safari  | ⚠️ Partial | Voice recording may have limitations |
+| Mobile Chrome | ✅ Full |  |
+| Mobile Safari | ⚠️ Partial |  |
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Node.js (v16+)
+- Python (v3.8+)
+- npm/yarn
+
+### Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/AbderrezzakMrch/Parkinson-s-Disease-Voice-Detector.git
+   cd parkinsons-voice-detector
+
+2. **Set up backend** 
+   ```bash
+   cd ml
+   pip install -r requirements.txt
+   uvicorn main:app --reload
+   
+3. **Set up frontend** 
+   ```bash
+    npm install
+    npm run dev
+
+
+📜 License
+Distributed under the MIT License. See LICENSE for more information.
+
+✉️ Contact
+Maireche Abderrezzak 
+
+Project Link: https://github.com/AbderrezzakMrch/Parkinson-s-Disease-Voice-Detector
+
+## Key Styling Elements Used:
+- Emoji headers for visual scanning
+- Tables for browser support and model metrics
+- Code blocks for installation commands
+- Clear section headers with consistent formatting
+- Placeholder images (replace with actual screenshots)
+- Badges (you can add more from shields.io)
