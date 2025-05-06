@@ -1,7 +1,6 @@
 # 🎤 Parkinson's Disease Voice Detector 🧠
 
-![Project Banner](https://via.placeholder.com/1200x400?text=Parkinson's+Disease+Voice+Detector) 
-*(Replace with your actual banner image)*
+![Project Banner]([https://via.placeholder.com/1200x400?text=Parkinson's+Disease+Voice+Detector](https://www.lifestation.com/wp-content/uploads/dynamic/2024/03/Medical-Alert-System-for-Parkinsons-Disease-Patients-1538x0-c-default.png)) 
 
 A web application that detects Parkinson's Disease through voice analysis using machine learning. Built for [Hackathon Name].
 
